@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('backend deps') {
       steps {
-        sh './setup_default_backend.sh'
+        sh './setup_default_backend.sh root'
       }
     }
 
